@@ -8,8 +8,13 @@ p {
   color: white;
 }
 
+main {
+  background-image: linear-gradient(rgba(0,0,0,.6), rgba(196, 109, 247, 0.2), rgba(0,0,0,.6));
+}
+
 section {
   margin: 100px auto;
+  
 }
 
 .banner {
@@ -85,6 +90,15 @@ h2 {
   
 }
 
+.banner  .banner-content button:active{
+  transform: scale(0.95) ;
+}
+.banner  .banner-content button:hover{
+  color:#03ffea ;
+  border-image: linear-gradient(#03ffea , #08d6c5 );
+  border-image-slice:10;
+} 
+
 #course-content{
   text-align: center;
   margin: auto;
@@ -148,7 +162,7 @@ h2 {
 footer {
   padding: 60px 0;
   text-align: center;
-  background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+  background-image: linear-gradient(rgba(0,0,0,.6), rgba(196, 109, 247, 0.2), rgba(0,0,0,.6));
   border-top: 1px solid #33A8DB80;
 }
 
